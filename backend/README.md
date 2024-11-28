@@ -68,7 +68,7 @@ User=nikolay
 WorkingDirectory=/home/nikolay/My_cloud/backend
 ExecStart=/home/nikolay/My_cloud/backend/venv/bin/gunicorn --access-logfile -\
     --workers=3 \
-    --bind unix:/home/nikolay/My_cloud/backend/backend/project.sock backend.wsgi:application>
+    --bind unix:/home/nikolay/My_cloud/backend/backend/project.sock backend.wsgi:application
 
 [Install]
 WantedBy=multi-user.target

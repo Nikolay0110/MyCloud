@@ -36,7 +36,7 @@ sudo apt-get install python3 python3-venv python3-pip postgresql nginx
 sudo su postgres
 psql
 ALTER USER postgres WITH PASSWORD '2312';
-CREATE DATABASE my_cloud;
+CREATE DATABASE mycloud;
 \q
 exit
 ```
